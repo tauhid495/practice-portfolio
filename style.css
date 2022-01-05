@@ -10,11 +10,13 @@ footer{
 }
 
 .sec-bg{
-    background-image: linear-gradient(#0099ff, rgb(0, 83, 139));
+    background-image: linear-gradient(#0099ff, #00538b);
 }
 .sec-mergin{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 0px;
+    margin-top: -39px;
 }
 .flex{
     display: flex;
@@ -46,15 +48,21 @@ footer{
 }
 .h3{
     font-size: 18px;
-    color: white;
     font-weight: 600;
 }
-a{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(#f7f096, #fd7c65);
     border-radius: 7px;
     color: navy;
     font-weight: 700;
-    padding: 5px;
     padding: 5px 20px;
+}
+a:hover{
+    background-image: linear-gradient(#afafaf, #5e5d5d);
+    color: navy;
+    font-weight: 900;
+}
+.white-bg{
+    background-color: whitesmoke;
 }
