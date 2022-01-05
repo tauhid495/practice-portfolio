@@ -1,7 +1,7 @@
 body{
     background-color: #4db7fd;
-
     font-family: 'Poppins', sans-serif;
+    color:white;
 }
 
 footer{
@@ -21,7 +21,7 @@ footer{
 }
 
 .half-width{
-    width: 40%;
+    width: 50%;
 }
 .margin{
     margin-top: 70px;
@@ -31,4 +31,30 @@ footer{
 }
 .left-pad{
     padding-left: 100px;
+}
+
+.orange-color{
+    color: rgb(255, 112, 87);
+}
+.h1{
+    font-size: 40px;
+    font-weight: 700;
+    filter: drop-shadow(1px 1px black);
+}
+.h2{
+    font-size: 30px;
+}
+.h3{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(#f7f096, #fd7c65);
+    border-radius: 7px;
+    color: navy;
+    font-weight: 700;
+    padding: 5px;
+    padding: 5px 20px;
 }
