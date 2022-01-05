@@ -1,8 +1,34 @@
 body{
-    background-color: skyblue;
+    background-color: #4db7fd;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 footer{
     color: gray;
     text-align: center;
+}
+
+.sec-bg{
+    background-image: linear-gradient(#0099ff, rgb(0, 83, 139));
+}
+.sec-mergin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.flex{
+    display: flex;
+}
+
+.half-width{
+    width: 40%;
+}
+.margin{
+    margin-top: 70px;
+}
+.shadow{
+    filter: drop-shadow(20px 5px 10px #262627);
+}
+.left-pad{
+    padding-left: 100px;
 }
