@@ -5,7 +5,7 @@ body{
 }
 
 footer{
-    color: gray;
+    color: rgb(63, 63, 63);
     text-align: center;
 }
 
@@ -16,7 +16,14 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 0px;
-    margin-top: -39px;
+    margin-top: px;
+}
+
+.sec-mergin-exp{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    margin-top: -40px;
 }
 .flex{
     display: flex;
@@ -30,6 +37,9 @@ footer{
 }
 .shadow{
     filter: drop-shadow(20px 5px 10px #262627);
+}
+.shadow2{
+    filter: drop-shadow(15px 5px 10px #7a7a7a);
 }
 .left-pad{
     padding-left: 100px;
@@ -45,6 +55,8 @@ footer{
 }
 .h2{
     font-size: 30px;
+    color: #4e4e4e;
+    font-weight: 800;
 }
 .h3{
     font-size: 18px;
@@ -65,4 +77,9 @@ a:hover{
 }
 .white-bg{
     background-color: whitesmoke;
+}
+
+
+.right-pad{
+    padding-right: 70px;
 }
